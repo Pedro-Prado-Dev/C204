@@ -1,4 +1,4 @@
-#include <iostream> // Entrada e sa�da
+#include <iostream> // Entrada e saida
 #include <climits> // INT_MAX
 
 using namespace std;
@@ -40,7 +40,7 @@ int main()
 	{
 		vis[cidade_atual] = true; // marco que ja visitei a cidade atual
 		// encontrar qual a proxima cidade mais proxima
-		custo_at = INT_MAX;
+		custo_at = INT_MAX;  // Int max é o maior int possivels
 		for(int j = 0;j < n;j++)
 		{
 			if(!vis[j] && custo_at > custo[cidade_atual][j])
