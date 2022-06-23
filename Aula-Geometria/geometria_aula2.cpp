@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cmath>
 #include <iomanip>
-
+#include <list>
 using namespace std;
 
 struct ponto
